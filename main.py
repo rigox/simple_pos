@@ -1,8 +1,15 @@
- 
+from models.Items  import Item
+from models.Pos import POS
+import  csv
+
 
 def main():
-    print("is working")
+    a =  csv.DictReader(open('data.csv'))
 
+    for row in a:
+        print(row)
+
+   
 
 
 if __name__ == "__main__":
