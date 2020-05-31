@@ -7,7 +7,7 @@ def main():
     a =  csv.DictReader(open('data.csv'))
 
     for row in a:
-        print(row)
+        print('wow this will works so much better in nodejs')
 
    
 
